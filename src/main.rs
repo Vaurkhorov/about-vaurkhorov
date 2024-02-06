@@ -17,11 +17,11 @@ fn App() -> impl IntoView {
                 <h1>
                     "Vaurkhorov's Page"
                 </h1>
-                <nav>
-                    <a href="/">"Home"</a>
-                    <a href="/projects">"Projects"</a>
-                    <a href="/about">"About"</a>
-                </nav>
+                <ul class="nav box">
+                    <li><a href="/">"Home"</a></li>
+                    <li><a href="/projects">"Projects"</a></li>
+                    <li><a href="/about">"About"</a></li>
+                </ul>
                 <main>
                     <Routes>
                         <Route path="/" view=|| view!{

@@ -8,11 +8,6 @@ main {
     width: 100%;
 }
 
-nav {
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-}
-
 .root {
     width: 50%;
 }
@@ -33,4 +28,27 @@ nav {
     border-color: black;
     padding: 1vh;
     margin-top: 2vh;
+}
+
+.nav {
+    flex-direction: row;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: darkcyan;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }

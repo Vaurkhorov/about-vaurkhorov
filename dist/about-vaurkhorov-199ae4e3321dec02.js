@@ -970,16 +970,16 @@ imports.wbg.__wbindgen_memory = function() {
     const ret = wasm.memory;
     return addHeapObject(ret);
 };
-imports.wbg.__wbindgen_closure_wrapper4608 = function(arg0, arg1, arg2) {
-    const ret = makeMutClosure(arg0, arg1, 412, __wbg_adapter_34);
+imports.wbg.__wbindgen_closure_wrapper4644 = function(arg0, arg1, arg2) {
+    const ret = makeMutClosure(arg0, arg1, 418, __wbg_adapter_34);
     return addHeapObject(ret);
 };
-imports.wbg.__wbindgen_closure_wrapper6047 = function(arg0, arg1, arg2) {
-    const ret = makeMutClosure(arg0, arg1, 488, __wbg_adapter_37);
+imports.wbg.__wbindgen_closure_wrapper6083 = function(arg0, arg1, arg2) {
+    const ret = makeMutClosure(arg0, arg1, 494, __wbg_adapter_37);
     return addHeapObject(ret);
 };
-imports.wbg.__wbindgen_closure_wrapper10088 = function(arg0, arg1, arg2) {
-    const ret = makeMutClosure(arg0, arg1, 514, __wbg_adapter_40);
+imports.wbg.__wbindgen_closure_wrapper10124 = function(arg0, arg1, arg2) {
+    const ret = makeMutClosure(arg0, arg1, 520, __wbg_adapter_40);
     return addHeapObject(ret);
 };
 
@@ -1021,7 +1021,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('about-vaurkhorov-93aab562536a059a_bg.wasm', import.meta.url);
+        input = new URL('about-vaurkhorov-199ae4e3321dec02_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 
