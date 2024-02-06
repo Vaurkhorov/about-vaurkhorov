@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+main {
+    width: 100%;
+}
+
+nav {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.root {
+    width: 50%;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3vh;
+    border-color: black;
+    padding: 1vh;
+    margin-top: 2vh;
+}
